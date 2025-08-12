@@ -10,8 +10,6 @@ cocotb (short for "coroutine cosimulation testbench") is a Python library for te
 - Icarus Verilog (free HDL simulator)
 - GTKWave (waveform viewer)
 - Build tools (GCC, make)
-
-Python Packages:
 - cocotb[bus] (main library + bus interfaces)
 
 ## Step 1: Set Up Your Environment
