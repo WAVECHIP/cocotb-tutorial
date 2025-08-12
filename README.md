@@ -40,8 +40,7 @@ pip install cocotb[bus]
 
 ### 2.1 Create the project directory
 ```bash
-mkdir dff_example
-cd dff_example
+cd dff
 ```
 
 ### 2.2 Create the hardware design (Verilog)
