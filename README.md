@@ -17,7 +17,7 @@ cocotb (short for "coroutine cosimulation testbench") is a Python library for te
 ### 1.1 Install required system packages
 ```bash
 sudo apt update
-sudo apt install python3-venv python3-pip iverilog git
+sudo apt install python3-venv python3-pip iverilog git gtkwave
 ```
 
 ### 1.2 Create a Python virtual environment
@@ -258,7 +258,6 @@ WAVES = 1
 
 Then run `make` again and open the generated `.vcd` file with GTKWave:
 ```bash
-sudo apt install gtkwave
 gtkwave dump.vcd
 ```
 
