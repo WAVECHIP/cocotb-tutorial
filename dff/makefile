@@ -9,4 +9,7 @@ TOPLEVEL = dff
 
 MODULE = test_dff
 
+# Add this line to generate waveforms
+WAVES = 1
+
 include $(shell cocotb-config --makefiles)/Makefile.sim
