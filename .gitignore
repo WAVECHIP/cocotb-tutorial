@@ -1,0 +1,236 @@
+# .gitignore for cocotb Projects
+
+# ============================================================================
+# Python Virtual Environment
+# ============================================================================
+# Virtual environment directories
+cocotb-env/
+venv/
+env/
+.venv/
+.env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================================================
+# Cocotb Simulation Files
+# ============================================================================
+# Simulation artifacts
+sim_build/
+results.xml
+*.vcd
+*.fst
+*.ghw
+*.lxt
+*.lx2
+*.vvp
+*.out
+
+# Cocotb generated files
+.coverage
+htmlcov/
+coverage.xml
+
+# Simulator-specific files
+# Icarus Verilog
+*.vvp
+dump.vcd
+
+# ModelSim/QuestaSim
+work/
+transcript
+vsim.wlf
+*.wlf
+*.vstf
+*.log
+wlf*
+
+# Vivado/Xilinx
+*.jou
+*.str
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+vivado*.backup.jou
+vivado*.backup.log
+
+# Synopsys VCS
+csrc/
+simv*
+*.daidir/
+ucli.key
+vc_hdrs.h
+*.vpd
+
+# Cadence
+INCA_libs/
+irun.*
+ncverilog.*
+*.history
+*.inter.vpd
+
+# Mentor Graphics
+modelsim.ini
+*.mpf
+*.mti
+*.qtl
+*.qdb
+
+# GHDL
+*.cf
+e~*.o
+work-obj93.cf
+
+# ============================================================================
+# HDL Temporary Files
+# ============================================================================
+# SystemVerilog/Verilog
+*.bak
+*~
+
+# VHDL
+*.bak
+*~
+
+# ============================================================================
+# IDE and Editor Files
+# ============================================================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ============================================================================
+# Operating System Files
+# ============================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# Documentation and Reports
+# ============================================================================
+# Sphinx documentation
+docs/_build/
+.doctrees/
+
+# LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+
+# ============================================================================
+# Project-Specific Files (Customize as needed)
+# ============================================================================
+# Test vectors and large data files
+# *.dat
+# *.hex
+# *.mem
+# test_vectors/
+
+# Generated reports
+# reports/
+# coverage_reports/
+
+# Synthesis outputs
+# synthesis/
+# *.ngc
+# *.bit
+# *.mcs
+
+# ============================================================================
+# Temporary and Backup Files
+# ============================================================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*~
