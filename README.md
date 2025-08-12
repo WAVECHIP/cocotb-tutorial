@@ -7,26 +7,20 @@ cocotb (short for "coroutine cosimulation testbench") is a Python library for te
 ## Essential Tools:
 
 - Python 3.8+ with pip and venv
+- cocotb[bus] (main library + bus interfaces)
 - Icarus Verilog (free HDL simulator)
 - GTKWave (waveform viewer)
 - Build tools (GCC, make)
-- cocotb[bus] (main library + bus interfaces)
 
 ## Step 1: Set Up Your Environment
 
-### 1.1 Create a project directory
-```bash
-mkdir ~/cocotb-tutorial
-cd ~/cocotb-tutorial
-```
-
-### 1.2 Install required system packages
+### 1.1 Install required system packages
 ```bash
 sudo apt update
 sudo apt install python3-venv python3-pip iverilog git
 ```
 
-### 1.3 Create a Python virtual environment
+### 1.2 Create a Python virtual environment
 ```bash
 # Create the virtual environment
 python3 -m venv cocotb-env
@@ -37,7 +31,7 @@ source cocotb-env/bin/activate
 # Your prompt should now show (cocotb-env) at the beginning
 ```
 
-### 1.4 Install cocotb
+### 1.3 Install cocotb
 ```bash
 pip install cocotb[bus]
 ```
