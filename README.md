@@ -1,17 +1,18 @@
-# WAVE-CHIP cocotb tutorial
-
-# Complete Beginner's Guide to cocotb
+# WAVE-CHIP Beginner's Guide to cocotb
 
 ## What is cocotb?
 
 cocotb (short for "coroutine cosimulation testbench") is a Python library for testing digital hardware designs. Instead of writing testbenches in Verilog/VHDL, you can write them in Python, making hardware verification more accessible and powerful.
 
-## Prerequisites
+## Essential Tools:
 
-- Linux system (Ubuntu 20.04+ recommended)
-- Basic understanding of digital logic
-- Python 3.8+ installed
-- Terminal/command line familiarity
+- Python 3.8+ with pip and venv
+- Icarus Verilog (free HDL simulator)
+- GTKWave (waveform viewer)
+- Build tools (GCC, make)
+
+Python Packages:
+- cocotb[bus] (main library + bus interfaces)
 
 ## Step 1: Set Up Your Environment
 
