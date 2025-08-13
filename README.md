@@ -6,6 +6,7 @@ cocotb (short for "coroutine cosimulation testbench") is a Python library for te
 
 ## Essential Tools:
 
+- Linux - (https://cloud.google.com/edu/faculty)
 - Python 3.8+ with pip and venv
 - cocotb[bus] (main library + bus interfaces)
 - Icarus Verilog (free HDL simulator)
